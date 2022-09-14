@@ -1,0 +1,15 @@
+ls -la
+tac .bash_history
+cat .bash_history 
+cd /~
+touch name ----fail
+mkdir name ---- papka
+touch papka/fail
+cd ~/name
+rmdir name --- delite
+rm name/* ---- del full fail in papka
+rm -rf name ---del papka and fail
+camm -- help
+cp ---- copi
+cp name /home/andru/folder----------- name in cope  folder
+sudo ----- prava admina
