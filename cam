@@ -2,14 +2,28 @@ ls -la
 tac .bash_history
 cat .bash_history 
 cd /~
-touch name ----fail
-mkdir name ---- papka
-touch papka/fail
-cd ~/name
-rmdir name --- delite
-rm name/* ---- del full fail in papka
-rm -rf name ---del papka and fail
+touch 'name' ----fail
+mkdir 'name' ---- papka
+touch 'papka'/'fail'
+cd ~/'name'
+rmdir 'name' --- delite
+rm 'name/*' ---- del full fail in papka
+rm -rf 'name' ---del papka and fail
 camm -- help
 cp ---- copi
-cp name /home/andru/folder----------- name in cope  folder
+cp 'name' '/home/andru/folder'----------- name in cope  folder
 sudo ----- prava admina
+otnositelniy put --- /''
+absalutniy --- ''
+mv --- perenos faila 
+   'papka'/'fail' 'kuda'
+ssh 'user'@  ip''
+sep file 'user'@ ip'' : failpach
+subo su ---- perehod v reshim admina
+su 'name' --- prava polzovatelya
+sudo chown 'name team':'name polzovatelya' 'name fail'
+sudo chmod 'nam admin,  nam polzovatel,  nam usr  (764)'
+7--- rwx (read, redact, vzaimodeystvie)
+6--- rw (read,redact)
+4--- r (read)
+
