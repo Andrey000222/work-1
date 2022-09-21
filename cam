@@ -26,4 +26,3 @@ sudo chmod 'nam admin,  nam polzovatel,  nam usr  (764)'
 7--- rwx (read, redact, vzaimodeystvie)
 6--- rw (read,redact)
 4--- r (read)
-
