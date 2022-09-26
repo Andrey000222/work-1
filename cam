@@ -26,6 +26,7 @@ sudo chmod 'nam admin,  nam polzovatel,  nam usr  (764)'
 7--- rwx (read, redact, vzaimodeystvie)
 6--- rw (read,redact)
 4--- r (read)
+ svn export 'ссылку'
 sudo apt-get install 'name program'
 sudo apt-get remove 'name program'
 sudo apt-cache policy 'name program'---- poisk na pk
