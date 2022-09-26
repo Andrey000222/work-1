@@ -26,3 +26,55 @@ sudo chmod 'nam admin,  nam polzovatel,  nam usr  (764)'
 7--- rwx (read, redact, vzaimodeystvie)
 6--- rw (read,redact)
 4--- r (read)
+sudo apt-get install 'name program'
+sudo apt-get remove 'name program'
+sudo apt-cache policy 'name program'---- poisk na pk
+sudo apt-cache search 'name program'--- poisk po def repres
+sudo apt-get upgrade --- obnoBleNie
+find 'gde iskat' -type (f(fail),d(derektory)) -name (-iname-- luboy registr)'name.txt(*.txt or name.*)' ---- poisk po name
+find . -type f - perm 0***(0764) -inname *** ----- poisk po pravam dostupa
+find . - size ((+ or -) (1M or 1k)) ---- poisk po razmeru 
+sort " ( )or(-n --chisla) " 'name' > 'new_name'---------- sorterovka failov
+top------ despety zadach
+free --- pamyat
+ps ---- zapushennie program  -aux (vse zadachi) ps -aux | grep 'name' ------ s filtrom
+tar (cf -- что архивируем ) 'имя архива.tar' 'имя что арх' 
+tar (tf--- просмотр архива) 'name'
+tar (xf--- разархивировать) 'name'
+(xz or gzip or bzip2) 'name' --- сжать архив
+(unxz  or gunzip or bunzip2 or unzip) 'name' --- расжать архив
+zip -r 'name' 'имя папки' ------- zip arxiv
+wget 'ссылку' --- скачать
+ping (-c кол-во раз) 'сайт'  ---------ping  сайта
+host 'сайт' --- ip сайта
+netstat (| grep 'nime') ---- соединение на пк
+ifconfig --- info in pc
+route ---- info o routere
+ssh 
+w ---- info o polzovatelyax
+#!/bin/bash ---- 1 строка в баш файлах
+echo '"text"'  ----- вывод текста
+1----'name'='число' 
+2----'name'='"текст"'
+3----'name'='`программа`'
+echo ' "$name" '  --- вызов программ 1,2,...,8
+
+4----`uname -a`
+5----"$0" --- название файла
+6----'name'=$1 --- ввод инф которую usr написал после { bash 'name' 'для $1' '  'текст для $2'  ' } всего $ 1-7
+7----'name'=$(( 'name_1' + ' name_2' ))
+8----read -p '"текст"' 'name_skr'
+9----if [ "$1-7" == 'переменная']; then   'программа'
+              elif []; then---- доп усл.
+     else --- или выполнить 
+     закрыть else ---fi    
+for (( i=1; i<=10; i++  )); do
+done                             
+
+for i in {2..5}; do
+done
+
+whilr []; do
+done
+
+
